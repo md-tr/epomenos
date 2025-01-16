@@ -1,5 +1,9 @@
 # This is the `epomenos` kernel, 0.1.0
 
+![productivity score](https://img.shields.io/badge/productivity_score---2147483648-white?logo=github&style=plastic)
+![kernel version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmd-tr%2Fepomenos%2Frefs%2Fheads%2Fmain%2Fkernel%2FCargo.toml&query=%24.package.version&prefix=v&label=epome-kernel&color=dark-green&style=plastic)
+![lines of code](https://tokei.rs/b1/github/md-tr/epomenos)
+
 > :warning: **WARNING**
 >
 > This project has no contribution to our society.  
@@ -30,9 +34,9 @@ functional operating system (although it's a very difficult task!) with a GUI.
 
 For Windows users, it is recommended to use Cygwin to compile `epomenos`.
 
-Make sure that you have GCC and [`just`](https://github.com/casey/just)
-installed. Also, for the `run` group of recipes to properly work, you
-might need QEMU.
+Make sure that you have the nigtly Rust toolset (`rustup`, `cargo`, `rustc`),
+`gcc`, and [`just`](https://github.com/casey/just) installed. Also, for the
+`run` group of recipes to properly work, you might need QEMU.
 
 First of all, retrieve the source files from this GitHub repository, and
 `cd` into the folder where `git` has installed it, for most cases, `epomenos`:
