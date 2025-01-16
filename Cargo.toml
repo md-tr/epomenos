@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "kernel"
+]
+
+resolver = "2"
+
+[profile.dev]
+# For now, `panic="abort"` is used to reduce binary size, avoid defining
+# `eh_personality`, and eliminating the need to deal with the stack-unwinding
+# cruft.
+panic = "abort"
+
+[profile.release]
+# For now, `panic="abort"` is used to reduce binary size, avoid defining
+# `eh_personality`, and eliminating the need to deal with the stack-unwinding
+# cruft.
+panic = "abort"
